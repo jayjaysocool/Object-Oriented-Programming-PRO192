@@ -330,7 +330,7 @@ public class Cabinet {
         }
         Collections.sort(listStudent, Comparator.comparingDouble(Student::getGpa));
         System.out.println("-------------------------------------------");
-        System.out.println("Here is the list of Student ");
+        System.out.println("Here is the list of Student after Sorting base on Gpa:  ");
         String header = String.format("|%-8s|%-25s|%-4s|%-4s|\n",
                 "ID", "Name", "Yob", "Gpa");
         System.out.println(header);
