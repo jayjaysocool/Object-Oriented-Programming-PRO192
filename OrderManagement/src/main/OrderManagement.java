@@ -1,4 +1,4 @@
-package ordermanagement;
+package main;
 
 public class OrderManagement {
 
