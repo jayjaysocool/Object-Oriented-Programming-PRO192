@@ -91,7 +91,7 @@ public class MyToys {
         }
     }
 
-    public static String getID(String msg, String errorMsg, String format) {
+    public static String getString(String msg, String errorMsg, String format) {
         String input;
         boolean match;
         while (true) {
