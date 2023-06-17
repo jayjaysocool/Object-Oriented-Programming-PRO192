@@ -65,7 +65,7 @@ public class Products {
     }
 
     public void showInfor() {
-        System.out.printf("|%-4s|%-20s|%-35s|%-25s|%-7.3f|\n",
+        System.out.printf("|%-4s|%-25s|%-35s|%-25s|%-7.3f|\n",
                  productID, productName, unit, orgin, price);
     }
 

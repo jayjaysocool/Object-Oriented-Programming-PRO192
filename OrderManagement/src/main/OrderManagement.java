@@ -1,7 +1,6 @@
 package main;
 
 import data.Cabinet;
-import data.Orders;
 import ui.Menu;
 
 /*Build a Order Management program. With the following basic functions
@@ -51,9 +50,10 @@ public class OrderManagement {
         do {
             mainMenu.showMenu();
             choice = mainMenu.getchoice();
-            
-            switch(choice){
+
+            switch (choice) {
                 case 1:
+                    cabinet.printProducts();
                     break;
                 case 2:
                     break;
@@ -74,7 +74,7 @@ public class OrderManagement {
                 case 10:
                     subMenu.showMenu();
                     choice = subMenu.getchoice();
-                    switch(choice){
+                    switch (choice) {
                         case 1:
                             break;
                         case 2:
